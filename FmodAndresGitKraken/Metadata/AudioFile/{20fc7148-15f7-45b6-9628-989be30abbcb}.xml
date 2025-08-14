@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{20fc7148-15f7-45b6-9628-989be30abbcb}">
+		<property name="assetPath">
+			<value>Juno-06a 01 (130BPM).wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.7895416666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{56d31f08-3593-4110-ba1f-cc1c94c93cb2}</destination>
+		</relationship>
+	</object>
+</objects>
