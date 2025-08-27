@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6539522896613215619}
   - component: {fileID: 156598739489950711}
   - component: {fileID: 2119591294879210806}
+  - component: {fileID: 583846618895368523}
   m_Layer: 0
   m_Name: Personaje
   m_TagString: Untagged
@@ -120,3 +121,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 10
   velRotacion: 90
+--- !u!114 &583846618895368523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628642748428415936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 923924552
+      Data2: 1306386189
+      Data3: -91119219
+      Data4: 1322151960
+    Path: event:/MusicTest
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
